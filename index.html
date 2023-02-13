@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <style>
+      body {
+        background: #88a9d4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card {
+        width: 175px;
+        height: 20rem;
+        display: flex;
+        background-color: white;
+        margin-top: 10%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+      }
+
+      .card-header img {
+        height: 150px;
+        width: 150px;
+        top: 205px;
+        margin-left: 11px;
+        position: absolute;
+        background-size: cover;
+        border-radius: 5px;
+      }
+
+      .card-body{
+        height: 50px;
+      }
+
+      .card-body h3{
+        font-size: medium;
+        text-align: center;
+        margin: 25px;
+      }
+      .card-body p{
+        text-align: center;
+        font-size: small;
+        margin-top: -11px;
+      }
+
+      .attribution{
+        display: grid;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-header">
+        <img src="../images/image-qr-code.png" alt="" />
+      </div>
+      <div class="card-body">
+        <h3>Improve your front-end skills by building projects</h3>
+        <p>Scan the QR code to visit Frontend Mentor and <br>take your coding skills to the next level</p>
+      </div>
+    </div>   
+  </body>
+</html>
